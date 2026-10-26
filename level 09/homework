@@ -1,0 +1,35 @@
+# 1) string -> int და ორმაგი მნიშვნელობა
+num = input("შეიყვანე რიცხვი: ")
+num_int = int(num)
+print("ორმაგი მნიშვნელობა:", num_int * 2)
+
+
+# 2) ორი string -> float და ჯამი
+num1 = input("შეიყვანე პირველი რიცხვი: ")
+num2 = input("შეიყვანე მეორე რიცხვი: ")
+
+num1_float = float(num1)
+num2_float = float(num2)
+
+print("ჯამი:", num1_float + num2_float)
+
+
+# 3) შეამოწმე არის თუ არა int
+data = input("შეიყვანე რამე: ")
+
+if data.isdigit():
+    print("ეს არის int")
+else:
+    print("ეს არ არის int")
+
+
+# 4) ცვლადის ტიპის დაბეჭდვა
+x = 10
+print("ცვლადის ტიპი არის:", type(x))
+
+
+# 5) ასაკი + 5 წელი
+age = input("შეიყვანე ასაკი: ")
+age_int = int(age)
+
+print("5 წლის შემდეგ იქნები:", age_int + 5)

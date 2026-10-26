@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>3 CSS Example</title>
+
+<style>
+body{font-family:Arial;text-align:center;background:#f4f4f4}
+.box{margin:20px;padding:20px;border-radius:10px;background:white}
+h2{color:green}
+</style>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Inline CSS -->
+<div class="box">
+<h2>McDonald's (Inline CSS)</h2>
+<p style="color:red;font-size:20px;">გემრიელი ბურგერები და კარტოფილი.</p>
+</div>
+
+<!-- Internal CSS -->
+<div class="box">
+<h2>Gaming (Internal CSS)</h2>
+<p>Minecraft, Brawl Stars და სხვა თამაშები.</p>
+</div>
+
+<!-- External CSS -->
+<div class="box goa">
+<h2>GOA (External CSS)</h2>
+<p>Goal Oriented Academy - პროგრამირების აკადემია.</p>
+</div>
+
+</body>
+</html>
+.goa{
+background:green;
+color:white;
+}

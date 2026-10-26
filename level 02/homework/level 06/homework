@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML სავარჯიშოები - დავით</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 { color: #333; }
+        .example { margin: 20px 0; padding: 15px; background: white; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+    <h1>HTML სავარჯიშოები</h1>
+
+    <!-- 1. ყველა ფორმატირების თეგის მაგალითი -->
+    <h2>1. ფორმატირების თეგები (სემანტიკური და არასემანტიკური)</h2>
+    <div class="example">
+        <p><strong>strong</strong> — სემანტიკური (მნიშვნელოვანი ტექსტი)</p>
+        <p><b>b</b> — არასემანტიკური (უბრალოდ გამუქება)</p>
+        
+        <p><em>em</em> — სემანტიკური (ხაზგასმა/emphasis)</p>
+        <p><i>i</i> — არასემანტიკური (უბრალოდ დახრილობა)</p>
+        
+        <p><u>u</u> — ხაზგასმული ტექსტი (underline)</p>
+        <p><mark>mark</mark> — მონიშნული ტექსტი (highlight)</p>
+        <p><small>small</small> — პატარა ტექსტი</p>
+        <p><del>del</del> — წაშლილი ტექსტი (strikethrough)</p>
+        <p><ins>ins</ins> — ჩასმული ტექსტი (underline)</p>
+        <p><sub>sub</sub> — ქვედა ინდექსი</p>
+        <p><sup>sup</sup> — ზედა ინდექსი</p>
+    </div>
+
+    <!-- 2. საყვარელი საჭმელების დალაგებული სია -->
+    <h2>2. ჩემი საყვარელი საჭმელები (დალაგებული სია)</h2>
+    <ol>
+        <li>ხაჭაპური (იმერული)</li>
+        <li>ხინკალი (ყველით და ხორცით)</li>
+        <li>შაშლიკი</li>
+        <li>ლობიო</li>
+        <li>ჩურჩხელა და ტკბილი საჭმელები</li>
+    </ol>
+
+    <!-- 3. საყვარელი ფილმების დაულაგებელი სია -->
+    <h2>3. ჩემი საყვარელი ფილმები (დაულაგებელი სია)</h2>
+    <ul>
+        <li>Inception</li>
+        <li>The Matrix</li>
+        <li>Interstellar</li>
+        <li>The Dark Knight</li>
+        <li>Parasite</li>
+    </ul>
+
+    <!-- 4. ლინკი GOA-ს ფეისბუქ გვერდზე -->
+    <h2>4. ლინკი GOA-ს ფეისბუქ გვერდზე</h2>
+    <p>
+        <a href="https://www.facebook.com/universityofgeorgiatbilisi" target="_blank">
+            გადადი University of Georgia (GOA) ფეისბუქ გვერდზე
+        </a>
+    </p>
+
+    <!-- 5. 5 ელემენტიანი დაულაგებელი სია ფორმატირების თეგებით -->
+    <h2>5. ფორმატირების თეგების მაგალითები დაულაგებელ სიაში</h2>
+    <ul>
+        <li><strong>ეს ტექსტი გამუქებულია</strong> strong თეგით</li>
+        <li><em>ეს ტექსტი დახრილია</em> em თეგით</li>
+        <li><u>ამ ტექსტს აქვს ხაზი ქვეშ</u> u თეგით</li>
+        <li><mark>ეს ტექსტი მონიშნულია</mark> mark თეგით</li>
+        <li><del>ეს ტექსტი წაშლილია</del> del თეგით</li>
+    </ul>
+
+</body>
+</html>

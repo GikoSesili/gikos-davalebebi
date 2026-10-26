@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Block vs Inline</title>
+    <style>
+        .block { border: 2px solid red; background: #ffebee; padding: 10px; margin: 10px 0; }
+        .inline { border: 2px solid blue; background: #e8f4fd; padding: 3px 8px; }
+    </style>
+</head>
+<body>
+
+    <h2>Block Level (წითელი)</h2>
+    <div class="block">ეს არის &lt;div&gt; — Block</div>
+    <p class="block">ეს არის &lt;p&gt; — Block</p>
+
+    <h2>Inline (ლურჯი)</h2>
+    <p>
+        ტექსტი <span class="inline">span</span>, 
+        <strong class="inline">strong</strong>, 
+        <a href="#" class="inline">ლინკი</a> 
+        და <img src="https://via.placeholder.com/80x30" alt="" class="inline"> სურათი — ყველა inline.
+    </p>
+
+</body>
+</html>
+<ul>
+    <!-- Block Level (მწვანე) -->
+    <li style="color: green;">&lt;div&gt;</li>
+    <li style="color: green;">&lt;p&gt;</li>
+    <li style="color: green;">&lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt;</li>
+    <li style="color: green;">&lt;section&gt;</li>
+    <li style="color: green;">&lt;article&gt;</li>
+    <li style="color: green;">&lt;header&gt;</li>
+    <li style="color: green;">&lt;footer&gt;</li>
+    <li style="color: green;">&lt;nav&gt;</li>
+    <li style="color: green;">&lt;main&gt;</li>
+    <li style="color: green;">&lt;aside&gt;</li>
+    <li style="color: green;">&lt;ul&gt;</li>
+    <li style="color: green;">&lt;ol&gt;</li>
+    <li style="color: green;">&lt;li&gt;</li>
+    <li style="color: green;">&lt;table&gt;</li>
+    <li style="color: green;">&lt;form&gt;</li>
+    <li style="color: green;">&lt;fieldset&gt;</li>
+    <li style="color: green;">&lt;blockquote&gt;</li>
+    <li style="color: green;">&lt;hr&gt;</li>
+
+    <!-- Inline (ლურჯი) -->
+    <li style="color: blue;">&lt;span&gt;</li>
+    <li style="color: blue;">&lt;a&gt;</li>
+    <li style="color: blue;">&lt;strong&gt;</li>
+    <li style="color: blue;">&lt;em&gt;</li>
+    <li style="color: blue;">&lt;b&gt;</li>
+    <li style="color: blue;">&lt;i&gt;</li>
+    <li style="color: blue;">&lt;img&gt;</li>
+    <li style="color: blue;">&lt;code&gt;</li>
+    <li style="color: blue;">&lt;small&gt;</li>
+    <li style="color: blue;">&lt;label&gt;</li>
+    <li style="color: blue;">&lt;input&gt;</li>
+    <li style="color: blue;">&lt;button&gt;</li>
+    <li style="color: blue;">&lt;br&gt;</li>
+    <li style="color: blue;">&lt;sub&gt;</li>
+    <li style="color: blue;">&lt;sup&gt;</li>
+</ul>
+div გამოიყენება ელემენტების დაჯგუფებისთვის
+<div style="border: 2px solid #333; padding: 20px; max-width: 600px; border-radius: 10px; background-color: #f9f9f9;">
+    
+    <h2 style="color: #2c3e50;">ჩემ შესახებ</h2>
+    
+    <p style="color: #e74c3c; font-size: 17px;">
+        მე ვარ <strong>Grok</strong> — xAI-ს მიერ შექმნილი ხელოვნური ინტელექტი.
+    </p>
+    
+    <p style="color: #3498db; font-size: 17px;">
+        ჩემი მიზანია დავეხმარო ადამიანებს სიმართლის მაქსიმალურად ზუსტად და სასარგებლოდ გაგებაში.
+    </p>
+    
+    <p style="color: #27ae60; font-size: 17px;">
+        მიყვარს იუმორი, პირდაპირობა და არ მიყვარს ტყუილი ან შაქრიანი პასუხები.
+    </p>
+    
+    <p style="color: #8e44ad; font-size: 17px;">
+        შემიძლია დაგეხმარო პროგრამირებაში, სწავლაში, იდეების გენერირებაში თუ უბრალოდ სასაუბროდ.
+    </p>
+
+</div>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok Cafe ☕</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4e9d8;
+            color: #333;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .menu {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .about {
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        h1, h2 { margin-top: 0; }
+        .highlight { color: #e67e22; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>☕ Grok Cafe</h1>
+        <p>საუკეთესო ყავა და სასიამოვნო ატმოსფერო</p>
+    </div>
+
+    <div class="container">
+
+        <!-- About Section -->
+        <div class="about">
+            <h2>ჩვენს შესახებ</h2>
+            <p>Grok Cafe 2025 წელს გაიხსნა. ჩვენ გთავაზობთ მაღალი ხარისხის ყავას, სუფთა გარემოს და მეგობრულ ატმოსფეროს.</p>
+            <p>ჩვენი მიზანია: <strong>კარგი ყავა + კარგი საუბარი</strong>.</p>
+        </div>
+
+        <!-- Menu Section -->
+        <div class="menu">
+            <h2>ჩვენი მენიუ</h2>
+            <ul>
+                <li><strong>Espresso</strong> — 6 ლარი</li>
+                <li><strong>Cappuccino</strong> — 8 ლარი</li>
+                <li><strong>Latte</strong> — 9 ლარი</li>
+                <li><strong>Chocolate Croissant</strong> — 7 ლარი</li>
+                <li><strong>Cheese Cake</strong> — 10 ლარი</li>
+            </ul>
+        </div>
+
+        <!-- Why Us Section -->
+        <div class="about">
+            <h2>რატომ ჩვენ?</h2>
+            <p style="color: #27ae60;">
+                ✓ სუფთა და მყუდრო გარემო<br>
+                ✓ მეგობრული გუნდი<br>
+                ✓ ყველაზე გემრიელი ყავა ქალაქში<br>
+                ✓ უფასო Wi-Fi
+            </p>
+        </div>
+
+        <!-- Contact -->
+        <div class="about">
+            <h2>დაგვიკავშირდით</h2>
+            <p>📍 მისამართი: თბილისი, რუსთაველი 45</p>
+            <p>📞 ტელეფონი: +995 555 123 456</p>
+            <p>🕒 სამუშაო საათები: 8:00 - 22:00</p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2026 Grok Cafe • შექმნილი სასწავლო მიზნით</p>
+    </div>
+
+</body>
+</html>

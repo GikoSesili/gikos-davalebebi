@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>2-7 davaleba</title>
+  <style>
+    .box-1 {
+      background-color: rgb(220, 53, 69);
+      width: 120px;
+      height: 80px;
+    }
+    .box-2 {
+      background-color: rgb(25, 135, 84);
+      width: 200px;
+      height: 50px;
+    }
+    .box-3 {
+      background-color: rgb(13, 110, 253);
+      width: 280px;
+      height: 120px;
+    }
+    h1 {
+      color: #6f42c1;
+      font-size: 36px;
+    }
+    .p1 { color: rgb(220, 53, 69); }
+    .p2 { color: rgb(253, 126, 20); }
+    .p3 { color: rgb(255, 193, 7); }
+    .p4 { color: rgb(25, 135, 84); }
+    .p5 { color: rgb(13, 110, 253); }
+    .p6 { color: #6f42c1; }
+    .p7 { color: #d63384; }
+    .p8 { color: #0dcaf0; }
+    .p9 { color: #198754; }
+    .p10 { color: #212529; }
+  </style>
+</head>
+<body>
+
+  <!--
+    2) Dimensions = elementis zomebi (width, height da sxva).
+    ertulebi: px, %, em, rem, vw, vh, vmin, vmax, ch, cm, mm, in, pt, pc.
+  -->
+
+  <h1>CSS zomebi da ferebi</h1>
+
+  <div class="box-1"></div>
+  <div class="box-2"></div>
+  <div class="box-3"></div>
+
+  <p class="p1">paragrafi 1 - RGB</p>
+  <p class="p2">paragrafi 2 - RGB</p>
+  <p class="p3">paragrafi 3 - RGB</p>
+  <p class="p4">paragrafi 4 - RGB</p>
+  <p class="p5">paragrafi 5 - RGB</p>
+  <p class="p6">paragrafi 6 - HEX</p>
+  <p class="p7">paragrafi 7 - HEX</p>
+  <p class="p8">paragrafi 8 - HEX</p>
+  <p class="p9">paragrafi 9 - HEX</p>
+  <p class="p10">paragrafi 10 - HEX</p>
+
+  <!--
+    6) Pixel = ekranis umciresi wertili.
+    fizikuri zoma yvela moyobilobaze erti da igive araa.
+    CSS px logikuri pixelia.
+
+    7) gadaxede am gverds rom ganimtkiros: dimensions, RGB, HEX, width/height, pixel.
+  -->
+
+</body>
+</html>

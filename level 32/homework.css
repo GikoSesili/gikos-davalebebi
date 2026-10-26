@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<title>SportZone</title>
+<style>
+body{margin:0;font-family:Arial;background:#eee;color:#172033}
+header,footer{background:#172033;color:white;padding:20px;text-align:center}
+nav a{color:white;margin:10px;text-decoration:none}
+main{padding:30px;text-align:center}
+section{margin:30px 0}
+.cards{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.card{background:white;padding:25px;border-radius:10px;width:200px;box-shadow:0 3px 10px #999}
+h1,span{color:#ff6b35}
+footer{margin-top:30px}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>SPORTZONE</h1>
+<nav>
+<a href="#products">პროდუქტები</a>
+<a href="#sports">სპორტი</a>
+<a href="#events">ღონისძიებები</a>
+</nav>
+</header>
+
+<main>
+<section>
+<h1>სპორტული სამყარო</h1>
+<p>სპორტი, პროდუქტები და სიახლეები ერთ სივრცეში.</p>
+</section>
+
+<section id="products">
+<h2>პროდუქტები</h2>
+<div class="cards">
+<div class="card">👟<h3>ფეხსაცმელი</h3></div>
+<div class="card">⛑️<h3>ჩაფხუტი</h3></div>
+<div class="card">🏋️<h3>ინვენტარი</h3></div>
+</div>
+</section>
+
+<section id="sports">
+<h2>სპორტი</h2>
+<div class="cards">
+<div class="card">⚽ ფეხბურთი</div>
+<div class="card">🏀 კალათბურთი</div>
+<div class="card">🤼 ჭიდაობა</div>
+</div>
+</section>
+
+<section id="events">
+<h2>ღონისძიებები</h2>
+<p>⚽ ჩემპიონატი | 🏀 ფინალი | 🤼 ტურნირი</p>
+</section>
+
+<section>
+<h2>სიახლეები</h2>
+<p>უახლესი სპორტული ამბები და შედეგები.</p>
+</section>
+</main>
+
+<footer>
+<p>📧 info@sportzone.ge | 📞 +995 555 123 456</p>
+<p>Facebook | Instagram | YouTube</p>
+</footer>
+
+</body>
+</html>

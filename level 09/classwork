@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Full დავალება</title>
+</head>
+<body id="top">
+
+<!-- 
+1) ერთ გვერდიანი vs მრავალ გვერდიანი
+
+ერთ გვერდიანი:
+ყველა ინფორმაცია ერთ გვერდზეა და ნავიგაცია გადადის სექციებზე (#id).
+
+მრავალ გვერდიანი:
+აქვს რამდენიმე HTML ფაილი და ნავიგაცია გადადის სხვადასხვა გვერდებზე.
+-->
+
+<!-- 
+2) id ატრიბუტი
+
+id არის უნიკალური სახელი ელემენტისთვის.
+გამოიყენება:
+- CSS-ში სტილისთვის
+- JavaScript-ში მისამართად
+- ნავიგაციაში (#id ლინკებით გადასასვლელად)
+-->
+
+<!-- ================= MULTI PAGE (იმიტაცია ერთ ფაილში) ================= -->
+
+<nav>
+    <a href="#home">Home</a> |
+    <a href="#aboutpage">About</a> |
+    <a href="#contact">Contact</a> |
+    <a href="#single">Single Page</a>
+</nav>
+
+<br><br>
+
+<!-- Home -->
+<section id="home">
+    <h1>Home</h1>
+    <p>ეს არის მთავარი გვერდი (მრავალ გვერდიანი საიტის იმიტაცია)</p>
+</section>
+
+<br><br>
+
+<!-- About -->
+<section id="aboutpage">
+    <h1>About</h1>
+    <p>მე ვარ დავით, მიყვარს პროგრამირება და გეიმინგი.</p>
+</section>
+
+<br><br>
+
+<!-- Contact -->
+<section id="contact">
+    <h1>Contact</h1>
+    <p>Email: example@gmail.com</p>
+</section>
+
+<br><br><hr><br>
+
+<!-- ================= SINGLE PAGE ================= -->
+
+<section id="single">
+
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#music">Favorite Musics</a> |
+        <a href="#movies">Favorite Movies</a>
+    </nav>
+
+    <br><br>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>სახელი: დავით</p>
+        <p>ასაკი: 25</p>
+        <p>ინტერესი: ტექნოლოგიები, გეიმინგი</p>
+        <img src="https://via.placeholder.com/150">
+    </section>
+
+    <br><br><br>
+
+    <!-- Favorite Musics -->
+    <section id="music">
+        <h2>Favorite Musics</h2>
+
+        <p>Believer - Imagine Dragons</p>
+        <img src="https://via.placeholder.com/100">
+
+        <p>Shape of You - Ed Sheeran</p>
+        <img src="https://via.placeholder.com/100">
+    </section>
+
+    <br><br><br>
+
+    <!-- Favorite Movies -->
+    <section id="movies">
+        <h2>Favorite Movies</h2>
+
+        <p>Inception</p>
+        <img src="https://via.placeholder.com/100">
+
+        <p>Interstellar</p>
+        <img src="https://via.placeholder.com/100">
+    </section>
+
+    <br><br><br>
+
+    <!-- დაბრუნება ზემოთ -->
+    <a href="#top">
+        <button>⬆ დაბრუნება ზემოთ</button>
+    </a>
+
+</section>
+
+</body>
+</html>

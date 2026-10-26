@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML სავარჯიშო - დავით</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            margin: 40px;
+        }
+        h1, h2 { color: #333; }
+    </style>
+</head>
+<body>
+
+    <h1>HTML სავარჯიშოები</h1>
+
+    <!-- 1. განსხვავება თეგებს შორის -->
+    <h2>1. განსხვავება strong/b და em/i თეგებს შორის</h2>
+    <p>
+        <strong>strong</strong> — სემანტიკური თეგია (მნიშვნელოვანი ტექსტი).<br>
+        <b>b</b> — მხოლოდ ვიზუალურად აკეთებს bold-ს.<br><br>
+        
+        <em>em</em> — სემანტიკური თეგია (ხაზგასმა).<br>
+        <i>i</i> — მხოლოდ ვიზუალურად აკეთებს italic-ს.
+    </p>
+
+    <!-- 2. პარაგრაფი სპეციალური ფორმატირებით -->
+    <h2>2. პარაგრაფი სპეციალური ფორმატირებით</h2>
+    <p>
+        <strong>პირველი</strong> 
+        <em>მეორე</em> 
+        <u>მესამე</u> 
+        სიტყვა ნორმალურად გრძელდება.
+    </p>
+
+    <!-- 3. ლინკი YouTube-ზე -->
+    <h2>3. ლინკი YouTube-ზე</h2>
+    <p>
+        <a href="https://www.youtube.com" target="_blank">გადადი YouTube-ზე</a><br>
+        <a href="https://www.youtube.com/@xai" target="_blank">xAI ოფიციალური YouTube არხი</a>
+    </p>
+
+    <!-- 4. დალაგებული სია -->
+    <h2>4. დალაგებული სია (5 ელემენტი)</h2>
+    <ol>
+        <li>პირველი ელემენტი - HTML სტრუქტურა</li>
+        <li>მეორე ელემენტი - სემანტიკური თეგები</li>
+        <li>მესამე ელემენტი - სია და ლინკები</li>
+        <li>მეოთხე ელემენტი - გამუქება და დახრილობა</li>
+        <li>მეხუთე ელემენტი - სრული HTML გვერდი</li>
+    </ol>
+
+</body>
+</html>

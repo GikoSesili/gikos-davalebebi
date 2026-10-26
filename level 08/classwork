@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA Academy - მთავარი</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.8; background: #f8f9fa; color: #333; }
+        header {
+            background: #1a73e8;
+            color: white;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            background: white;
+            color: #1a73e8;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://picsum.photos/id/1015/1920/700') center/cover;
+            color: white;
+            text-align: center;
+            padding: 160px 20px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 50px 20px; }
+        h1 { font-size: 48px; margin-bottom: 20px; }
+        footer { background: #222; color: white; text-align: center; padding: 25px; margin-top: 60px; }
+    </style>
+</head>
+<body>
+
+    <!-- 1. სხვაობა ერთგვერდიან და მრავალგვერდიან ვებსაიტს შორის -->
+    <!-- ერთგვერდიანი (Single Page): ყველაფერი ერთ HTML ფაილშია. გადასვლა სექციებს შორის ხდება JavaScript-ით, გვერდი არ იტვირთება თავიდან. სწრაფია, მაგრამ SEO სუსტია დიდი კონტენტისთვის. -->
+    <!-- მრავალგვერდიანი (Multi Page): თითოეული გვერდი ცალკე HTML ფაილია (index.html, about.html, contact.html). გადასვლისას გვერდი იტვირთება. უკეთესია SEO-სთვის და დიდი სტრუქტურისთვის. -->
+
+    <!-- 2. ნავიგაციის მენიუ (Navigation Menu) -->
+    <!-- ნავიგაციის მენიუ არის საიტის ზედა ნაწილში მდებარე ლინკების სია, რომელიც საშუალებას აძლევს მომხმარებელს სწრაფად გადავიდეს სხვადასხვა გვერდზე. -->
+    <!-- გამოიყენება UX-ის გასაუმჯობესებლად და საიტის სტრუქტურის ნათლად ჩვენებისთვის. -->
+    <!-- მაგალითები: YouTube (Home, Shorts, Subscriptions), Facebook (Home, Watch, Marketplace), Google, Amazon და ა.შ. -->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">მთავარი</a></li>
+                <li><a href="about.html">ჩვენს შესახებ</a></li>
+                <li><a href="contact.html">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>GOA Academy</h1>
+            <p style="font-size: 26px;">შენი მომავალი IT-ში იწყება აქ!</p>
+            <p style="margin-top: 30px; font-size: 20px;">პროგრამირება • ვებ დეველოპმენტი • Data Science</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2>მოგესალმებით GOA Academy-ში!</h2>
+        <p>ჩვენ ვართ თბილისის ერთ-ერთი წამყვანი პროგრამირების აკადემია. ჩვენი მიზანია ახალგაზრდებს მივცეთ პრაქტიკული ცოდნა და დავეხმაროთ IT-ში კარიერის დაწყებაში.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 GOA Academy • ყველა უფლება დაცულია</p>
+    </footer>
+
+</body>
+</html>
